@@ -1,0 +1,63 @@
+<!-- fragment_add_product_bottom_sheet.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/productNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="10dp"
+        android:background="@drawable/round_box"
+        android:hint="Product Name" />
+
+    <Spinner
+        android:id="@+id/productTypeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_box"
+
+        />
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="10dp"
+        android:hint="Price"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_box"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/taxEditText"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Tax"
+        android:background="@drawable/round_box"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#152998"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#152998"/>
+
+</LinearLayout>
